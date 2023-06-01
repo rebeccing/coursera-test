@@ -1,0 +1,42 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hey there ;) </title>
+</head/
+<body>
+
+<hl>
+<img src+"picture-with-quote.jpg" width ="400" height = "235" alt="pic with a quote">
+      <!-- Link to every section in the page -->
+      <li><a href="#section1">#section1</a></li>
+      <li><a href="#section2">#section2</a></li>
+ </hl>
+
+	<h1><a name="section1">(#section1) Unordered list</a></h1>
+		<div>
+			My typicall list:
+			<ul>
+			<li>milk</li>
+			<li> eggs</li>
+		<li> cookies</li>
+				<ul>
+						<li> chocolate</li>
+						<li>preanut butter</li>
+
+				</ul>
+			</ul>
+		</div>
+
+<section>
+<h1><a name="section2">(#section2) We can link to a file inthe same directory as this HTML file like this:</a></h1>
+	
+		<a href="same-directory.html" title = "same dir link">file in same directory</a>
+
+		<a href="same-directory.html" title="same dir link">
+		<div> DIV linking to a file in the same direcotry</div>
+</section>
+
+
+</body>
+</html>
