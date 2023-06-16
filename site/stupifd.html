@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  
+
+  #bg{
+    width: 500px;
+    height: 500px;
+    background-color: #E9B0EA;
+  }
+
+body {
+  background-color: gray;
+  margin:0;
+  padding: 0;
+}
+
+#box {
+  font-size:20px;
+  background-color: blue;
+  padding: 100px;
+  border:15px white;
+  margin: 100px;
+  overflow: hidden;
+}
+#content {
+  background-color: #00195B; /*green*/
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Box Model</h1>
+
+<div id="box">
+  <div id="content">One of these days i'll pick a fun little piece of text to recite over and over again.. maybe that ezekiel thing from pulp fiction </div>
+  <div id="bg"> background properties are fun!</div>
+
+  <h2>
+
+    <div>
+        List time :)
+        <ul>
+          <li>enjoy by bjork</li>
+          <li>just by radiohead</li>
+          <li>don't get my sympathy hanging out the 15th floor</li>
+        </ul>
+    </div>
+  </h2>
+
+</div>
+
+
+</body>
+</html>
